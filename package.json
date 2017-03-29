@@ -1,0 +1,25 @@
+{
+  "name": "koa2-formidable",
+  "version": "1.0.0",
+  "description": "koa2 middleware for formidable",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/GaryChangCN/koa2-formidable.git"
+  },
+  "keywords": [
+    "formidable",
+    "koa2"
+  ],
+  "dependencies": {
+    "formidable": "^1.0.17"
+  },
+  "author": "garychangcn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GaryChangCN/koa2-formidable/issues"
+  },
+  "homepage": "https://github.com/GaryChangCN/koa2-formidable#readme"
+}
