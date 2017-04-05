@@ -1,3 +1,9 @@
+## GET
+
+```js
+npm install koa2-formidable --save
+```
+
 ## API
 ```js
 var formidable=require('koa2-formidable')
