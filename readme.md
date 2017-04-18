@@ -18,3 +18,5 @@ opt is [formidable](https://github.com/felixge/node-formidable) options.
 ```js
 var {body,files}=ctx.request;
 ``` 
+## LICENSE
+[MIT](./LICENSE)
