@@ -5,18 +5,20 @@ npm install koa2-formidable --save
 ```
 
 ## API
+
 ```js
-var formidable=require('koa2-formidable')
-var Koa = require('koa')
-var app =new Koa()
-app.use(formidable(opt));
+const formidable = require('koa2-formidable')
+const Koa = require('koa')
+const app = new Koa()
+app.use (formidable (opt))
+
 ```
 opt is [formidable](https://github.com/felixge/node-formidable) options.
 
 ## Use
 
 ```js
-var {body,files}=ctx.request;
+let {body, files} = ctx.request
 ``` 
 ## LICENSE
 [MIT](./LICENSE)

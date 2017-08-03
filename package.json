@@ -1,6 +1,6 @@
 {
   "name": "koa2-formidable",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "koa2 middleware for formidable",
   "main": "index.js",
   "scripts": {
