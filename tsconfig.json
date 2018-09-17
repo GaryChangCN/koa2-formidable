@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "jsx": "react",
+        "target": "es2015",
+        "module": "commonjs",
+        "outDir": "./lib",
+        "declaration": true
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}

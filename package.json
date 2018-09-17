@@ -2,8 +2,10 @@
   "name": "koa2-formidable",
   "version": "1.0.2",
   "description": "koa2 middleware for formidable",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
+    "build": "rm -rf ./lib && tsc -p tsconfig.json",
+    "dev": "tsc -w ./src/index.ts"
   },
   "repository": {
     "type": "git",
@@ -13,13 +15,22 @@
     "formidable",
     "koa2"
   ],
+  "files": [
+      "lib"
+  ],
   "dependencies": {
-    "formidable": "^1.0.17"
+    "@types/node": "^10.10.0",
+    "formidable": "^1.0.17",
+    "koa": "^2.5.3"
   },
   "author": "garychangcn",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/GaryChangCN/koa2-formidable/issues"
   },
-  "homepage": "https://github.com/GaryChangCN/koa2-formidable#readme"
+  "homepage": "https://github.com/GaryChangCN/koa2-formidable#readme",
+  "devDependencies": {
+    "@types/formidable": "^1.0.31",
+    "@types/koa": "^2.0.46"
+  }
 }
